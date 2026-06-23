@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Sapphire Manufacturing Website</title>
+    <link rel="preconnect" href="https://sapphiremfg.s3.us-west-2.amazonaws.com">
+    <link rel="preconnect" href="https://sapphire-chandelier-com-cdn.s3.us-west-2.amazonaws.com">
+    <link rel="preload" as="image" href="https://sapphire-chandelier-com-cdn.s3.us-west-2.amazonaws.com/media-files/img/projects/Casinos/Bossier/1-IMG_1965+copy+2+(1)_compressed.webp">
+    <link rel="preload" as="image" href="https://sapphiremfg.s3.us-west-2.amazonaws.com/site/wp-content/uploads/2023/06/01225031/img_projects_cover_fourwinds1.jpg">
+    <link rel="preload" as="image" href="https://sapphiremfg.s3.us-west-2.amazonaws.com/site/wp-content/uploads/2023/12/02000706/img_projects_peterlugersteakhouse2.jpg">
+    <link rel="preload" as="image" href="https://sapphiremfg.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/07/10023747/img_projects_vertical_live2-1-1.jpg">
+    <link rel="preload" as="image" href="https://sapphiremfg.s3.us-west-2.amazonaws.com/wp-content/uploads/2021/07/09180441/img_projects_cover_caesars1-1.jpg">
+    <meta name="description" content="Sapphire Manufacturing - Custom lighting and metal fabrication solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
