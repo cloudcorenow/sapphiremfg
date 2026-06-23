@@ -16,13 +16,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'margaritaville-resort-bossier-city',
-    title: 'Margaritaville Resort Bossier City',
+    id: 'live-casino-hotel-bossier-city',
+    title: 'Live! Casino & Hotel',
     location: 'Bossier City, LA',
-    description: 'Custom lighting installation for luxury resort',
+    description: 'Custom lighting installation for luxury casino & hotel',
     image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/ac33bb2c-92a3-4ac9-7f17-4db4d9186400/w=1600',
     category: 'Hospitality',
-    fullDescription: 'A comprehensive lighting installation designed and manufactured for the Margaritaville Resort in Bossier City. This project showcases our expertise in creating custom lighting solutions that enhance the resort atmosphere while maintaining the brand\'s signature style.',
+    fullDescription: 'A comprehensive lighting installation designed and manufactured for Live! Casino & Hotel in Bossier City. This project showcases our expertise in creating custom lighting solutions that enhance the gaming and hospitality atmosphere with bold, eye-catching designs.',
     additionalImages: [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/7df76ba8-385e-4df4-0f87-bb5cb889a200/w=1600',
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/1d8a009b-9e53-43d6-409a-ec354194b500/w=1600',

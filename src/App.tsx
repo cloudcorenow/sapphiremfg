@@ -154,22 +154,22 @@ function App() {
       },
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/b08adf7c-908d-46af-ba6d-e6a8afdef500/w=1600',
-        name: 'Margaritaville Resort Casino',
+        name: 'Live! Casino & Hotel',
         location: 'Bossier City, LA'
       },
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/f43e24a1-bcae-4f90-ead3-b804a5be3400/w=1600',
-        name: 'Margaritaville Resort Casino',
+        name: 'Live! Casino & Hotel',
         location: 'Bossier City, LA'
       },
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/136c1a28-ca31-44ca-bf7b-912774cfed00/w=1600',
-        name: 'Margaritaville Resort Casino',
+        name: 'Live! Casino & Hotel',
         location: 'Bossier City, LA'
       },
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/28681d91-e37d-4fa7-d4d8-3101cbe0c700/w=1600',
-        name: 'Margaritaville Resort Casino',
+        name: 'Live! Casino & Hotel',
         location: 'Bossier City, LA'
       },
       {
@@ -189,7 +189,7 @@ function App() {
       },
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/d7193e75-59cf-4470-7ac7-9ec8acdf5400/w=1600',
-        name: 'Margaritaville Resort Casino',
+        name: 'Live! Casino & Hotel',
         location: 'Bossier City, LA'
       },
     ];
