@@ -54,7 +54,7 @@ function Contact() {
     {
       name: 'Alissa Pryor',
       title: 'Inside Sales Executive',
-      region: 'OH | KY | TN | MS | AL | GA | SC | NC | VA | WV | PA | VT | NH | ME | MA | CT | RI | NJ | DE | MD',
+      region: 'OH | KY | TN | MS | AL | GA | SC | NC | VA | WV | PA | VT | NH | ME | MA | CT | RI | NJ | DE | MD | FL',
       email: 'apryor@sapphiremfg.com',
       phone: 'C. 714.879.3660'
     },
@@ -85,13 +85,6 @@ function Contact() {
       region: 'IL',
       email: 'sales@sapphiremfg.com',
       phone: 'C. 312.288.5611'
-    },
-    {
-      name: 'Josh Altenbach',
-      title: 'Sales Representative',
-      region: 'FL',
-      email: 'sales@sapphiremfg.com',
-      phone: 'C. 407.921.2290'
     }
   ];
 
