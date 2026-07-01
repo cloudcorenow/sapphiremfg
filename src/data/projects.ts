@@ -88,7 +88,7 @@ export const projects: Project[] = [
   },
   {
     id: 'one-rangers-way',
-    title: "One Ranger's Way",
+    title: "One Rangers Way",
     location: 'Arlington, TX',
     description: 'Custom lighting installation for premier hospitality development',
     image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/bde6a682-19f3-4c55-c8d9-7cac351c0a00/w=1600',
