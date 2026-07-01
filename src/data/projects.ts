@@ -93,7 +93,7 @@ export const projects: Project[] = [
     description: 'Custom lighting installation for premier hospitality development',
     image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/bde6a682-19f3-4c55-c8d9-7cac351c0a00/w=1600',
     category: 'Hospitality',
-    fullDescription: "A refined lighting installation crafted for One Ranger's Way. This project highlights our ability to deliver bespoke lighting solutions that elevate residential spaces with elegance and precision.",
+    fullDescription: "A refined lighting installation crafted for One Rangers Way. This project highlights our ability to deliver bespoke lighting solutions that elevate residential spaces with elegance and precision.",
     additionalImages: [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/c0d914c7-9831-41da-d1f6-8ec3a83eaf00/w=1600',
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/a99b84f9-8384-4379-260b-697d7dee5800/w=1600',

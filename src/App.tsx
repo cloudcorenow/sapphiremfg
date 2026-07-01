@@ -144,7 +144,7 @@ function App() {
     const carouselSlides = [
       {
         image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/128994df-73fb-4b32-50f8-1d2b949efd00/w=1600',
-        name: "One Ranger's Way",
+        name: "One Rangers Way",
         location: 'Arlington, TX'
       },
       {
