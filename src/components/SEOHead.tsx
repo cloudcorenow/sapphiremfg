@@ -11,10 +11,10 @@ interface SEOHeadProps {
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
-  title = 'Sapphire Manufacturing - Custom Lighting & Metal Fabrication',
-  description = 'Sapphire Manufacturing specializes in custom lighting and metal fabrication solutions for hospitality, gaming, and commercial properties worldwide.',
-  image = 'https://sapphire-chandelier-com-cdn.s3.us-west-2.amazonaws.com/media-files/img/projects/Casinos/Bossier/1-IMG_1965+copy+2+(1)_compressed.webp',
-  url = 'https://sapphiremfg.com',
+  title = 'Sapphire Manufacturing | Custom Lighting & Metal Fabrication',
+  description = 'Custom architectural lighting and precision metal fabrication by Sapphire Manufacturing.',
+  image = 'https://sapphiremfg.com/sapphire-social-preview.png',
+  url = 'https://sapphiremfg.com/',
   type = 'website',
   structuredData
 }) => {
