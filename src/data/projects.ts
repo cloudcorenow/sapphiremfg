@@ -1018,6 +1018,24 @@ export const projects: Project[] = [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/7cc13672-cb43-415a-488f-cd67dc6c3f00/w=1600',
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/1a4b6199-cd65-4b2c-ec40-ea2586530000/w=1600'
     ]
+  },
+  {
+    id: 'scotch-80-prime-steakhouse-las-vegas',
+    title: 'Scotch 80 Prime Steakhouse',
+    location: 'Las Vegas, NV',
+    description: 'Custom lighting installation for Scotch 80 Prime Steakhouse',
+    image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/8050d42f-cd00-4158-7a3a-8a64ee53e500/w=800',
+    category: 'Commercial',
+    spotlight: true,
+    fullDescription: 'A custom lighting installation for Scotch 80 Prime Steakhouse in Las Vegas, Nevada. This project showcases our craftsmanship in creating warm, refined lighting environments that complement world-class dining experiences.',
+    additionalImages: [
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/f9f30be0-f4a8-458a-29df-2efae457b700/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/d8c3c1ba-6d07-4b4c-f324-2abf4f5d2a00/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/24539950-0bcd-4fbe-4d9a-357e9ae27d00/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/b96132e2-586b-4f2e-e66a-11eb8efac400/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/e8a5ea13-45da-42b1-1ae2-b947aadc7300/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/972f6227-f3ce-47c3-3ce2-45e1b729c200/w=800'
+    ]
   }
 ];
 
