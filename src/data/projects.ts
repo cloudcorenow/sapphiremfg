@@ -1036,6 +1036,20 @@ export const projects: Project[] = [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/e8a5ea13-45da-42b1-1ae2-b947aadc7300/w=800',
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/972f6227-f3ce-47c3-3ce2-45e1b729c200/w=800'
     ]
+  },
+  {
+    id: 'avenue-nightclub-los-angeles',
+    title: 'Avenue Nightclub',
+    location: 'Los Angeles, CA',
+    description: 'Custom lighting installation for Avenue Nightclub',
+    image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/48f50081-b937-4c80-2fbd-55ce15e7e600/w=800',
+    category: 'Entertainment',
+    spotlight: true,
+    fullDescription: 'A custom lighting installation for Avenue Nightclub in Los Angeles, California. This project highlights our ability to deliver bold, dynamic lighting environments that define the atmosphere of premier nightlife and entertainment venues.',
+    additionalImages: [
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/7ea73ce2-1592-45b5-e29d-8ea80692b500/w=800',
+      'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/c38733c9-75f7-428b-7646-031a7e989800/w=800'
+    ]
   }
 ];
 
