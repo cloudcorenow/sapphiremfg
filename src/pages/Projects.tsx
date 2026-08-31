@@ -72,8 +72,8 @@ function Projects() {
           <div className="px-4 sm:px-6 lg:px-8 xl:px-10">
             <div className="max-w-[90rem] mx-auto pt-6 sm:pt-8">
               <div className="flex items-center gap-2.5 mb-4 sm:mb-6">
-                <Sparkles className="w-4 h-4 text-[#C4A14D]" />
-                <span className="text-[#C4A14D] text-xs sm:text-sm uppercase tracking-[0.2em] font-medium">Project Spotlight</span>
+                <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-[#C4A14D]" />
+                <span className="text-[#C4A14D] text-sm sm:text-base md:text-lg uppercase tracking-[0.2em] font-medium">Project Spotlight</span>
                 <div className="flex-1 h-px bg-[#C4A14D]/20 ml-2"></div>
               </div>
             </div>
@@ -84,7 +84,7 @@ function Projects() {
               const featured = spotlightProjects[spotlightIndex];
               const previewImages = featured.additionalImages?.slice(0, 3) || [];
               return (
-                <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[420px] sm:min-h-[480px] lg:min-h-[540px]">
+                <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[420px] sm:min-h-[520px] lg:min-h-[600px] xl:min-h-[660px]">
                   {/* Left: Info Panel */}
                   <div className="relative flex flex-col justify-center px-6 sm:px-10 lg:px-16 xl:px-20 py-10 sm:py-12 lg:py-16 bg-gradient-to-br from-[#111] via-[#0d0d0d] to-black order-2 lg:order-1">
                     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(196,161,77,0.04)_0%,_transparent_60%)]"></div>
@@ -138,7 +138,7 @@ function Projects() {
 
                   {/* Right: Hero Image */}
                   <div
-                    className="relative overflow-hidden cursor-pointer order-1 lg:order-2 min-h-[260px] sm:min-h-[320px]"
+                    className="relative overflow-hidden cursor-pointer order-1 lg:order-2 min-h-[300px] sm:min-h-[380px] lg:min-h-[600px] xl:min-h-[660px]"
                     onClick={() => navigate(`/project/${featured.id}`)}
                   >
                     <img
