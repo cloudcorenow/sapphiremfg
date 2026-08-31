@@ -12,6 +12,7 @@ export interface Project {
     url: string;
     poster: string;
   };
+  spotlight?: boolean;
 }
 
 export const projects: Project[] = [
@@ -22,6 +23,7 @@ export const projects: Project[] = [
     description: 'Custom lighting installation for luxury casino & hotel',
     image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/ac33bb2c-92a3-4ac9-7f17-4db4d9186400/w=1600',
     category: 'Hospitality',
+    spotlight: true,
     fullDescription: 'A comprehensive lighting installation designed and manufactured for Live! Casino & Hotel in Bossier City. This project showcases our expertise in creating custom lighting solutions that enhance the gaming and hospitality atmosphere with bold, eye-catching designs.',
     additionalImages: [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/7df76ba8-385e-4df4-0f87-bb5cb889a200/w=1600',
@@ -882,6 +884,7 @@ export const projects: Project[] = [
     description: 'Custom lighting installation for Graton Casino',
     image: 'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/e22ad25d-e5f2-4959-06af-ab9b2951f900/w=1600',
     category: 'Casino',
+    spotlight: true,
     fullDescription: 'A large-scale custom lighting installation for Graton Casino in Rohnert Park, California. This project showcases our ability to deliver dramatic, high-impact lighting across the expansive floors, corridors, and amenity spaces of a premier Northern California gaming destination.',
     additionalImages: [
       'https://imagedelivery.net/n_dCasaHuVE9kaaQfihmuA/bdf2bd44-f20a-407e-0ad6-ff7bacc7f400/w=1600',
@@ -1017,6 +1020,10 @@ export const projects: Project[] = [
     ]
   }
 ];
+
+export const getSpotlightProjects = (): Project[] => {
+  return projects.filter(project => project.spotlight);
+};
 
 export const getProjectById = (id: string): Project | undefined => {
   return projects.find(project => project.id === id);
