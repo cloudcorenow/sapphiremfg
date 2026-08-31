@@ -84,9 +84,9 @@ function Projects() {
               const featured = spotlightProjects[spotlightIndex];
               const previewImages = featured.additionalImages?.slice(0, 3) || [];
               return (
-                <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[420px] sm:min-h-[520px] lg:min-h-[600px] xl:min-h-[660px]">
+                <div className="grid grid-cols-1 lg:grid-cols-5 min-h-[420px] sm:min-h-[480px] lg:min-h-[540px]">
                   {/* Left: Info Panel */}
-                  <div className="relative flex flex-col justify-center px-6 sm:px-10 lg:px-16 xl:px-20 py-10 sm:py-12 lg:py-16 bg-gradient-to-br from-[#111] via-[#0d0d0d] to-black order-2 lg:order-1">
+                  <div className="relative flex flex-col justify-center px-6 sm:px-10 lg:px-16 xl:px-20 py-10 sm:py-12 lg:py-16 bg-gradient-to-br from-[#111] via-[#0d0d0d] to-black order-2 lg:order-1 lg:col-span-2">
                     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(196,161,77,0.04)_0%,_transparent_60%)]"></div>
                     <div className="relative z-10">
                       <div className="flex items-center gap-2 mb-3 sm:mb-4">
@@ -138,7 +138,7 @@ function Projects() {
 
                   {/* Right: Hero Image */}
                   <div
-                    className="relative overflow-hidden cursor-pointer order-1 lg:order-2 min-h-[300px] sm:min-h-[380px] lg:min-h-[600px] xl:min-h-[660px]"
+                    className="relative overflow-hidden cursor-pointer order-1 lg:order-2 lg:col-span-3 min-h-[260px] sm:min-h-[320px]"
                     onClick={() => navigate(`/project/${featured.id}`)}
                   >
                     <img
