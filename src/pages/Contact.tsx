@@ -56,7 +56,7 @@ function Contact() {
       title: 'Inside Sales Executive',
       region: 'OH | KY | TN | MS | AL | GA | SC | NC | VA | WV | PA | VT | NH | ME | MA | CT | RI | NJ | DE | MD | FL',
       email: 'apryor@sapphiremfg.com',
-      phone: 'C. 714.879.3660'
+      phone: 'C. 949.966.3225'
     },
     {
       name: 'Kirk Fisher',
