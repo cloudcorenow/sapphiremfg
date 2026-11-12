@@ -85,6 +85,27 @@ function Contact() {
       region: 'IL',
       email: 'sales@sapphiremfg.com',
       phone: 'C. 312.288.5611'
+    },
+    {
+      name: 'Josh Altenbach',
+      title: 'Sales Representative',
+      region: 'North Florida',
+      email: 'josh@altenbachgroup.com',
+      phone: 'C. 407.921.2290'
+    },
+    {
+      name: 'Andy Viera',
+      title: 'Sales Representative',
+      region: 'South Florida',
+      email: 'andy@vcontractllc.com',
+      phone: 'C. 786.269.9671'
+    },
+    {
+      name: 'Daisy Swift',
+      title: 'Sales Representative',
+      region: 'Washington, DC Area',
+      email: 'daisyswift@thebogroup.com',
+      phone: 'C. 301.312.0866'
     }
   ];
 
